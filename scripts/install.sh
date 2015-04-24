@@ -229,7 +229,7 @@ ensure_local_gyp() {
 }
 
 node(){
-
+	echo :Installing Node $NODE_VERSION
 }
 
 node_old(){

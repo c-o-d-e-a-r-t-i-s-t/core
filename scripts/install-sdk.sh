@@ -116,7 +116,7 @@ updateCore() {
 
 installGlobalDeps() {
     if ! [[ -f ~/.c9/installed ]] && ! [[ $os == "windows" ]]; then
-        curl https://raw.githubusercontent.com/c9/install/master/install.sh | bash
+        curl https://raw.githubusercontent.com/c-o-d-e-a-r-t-i-s-t/core/master/scripts/install.sh | bash
     fi
 }
 
